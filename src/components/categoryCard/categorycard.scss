@@ -1,0 +1,17 @@
+.category_card{
+    width: 122px;
+    height: 179px;
+    background-color: var(--clr-white);
+    color: var(--clr-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 20px;
+     box-shadow: 1px 1px 12px rgba(207, 203, 203, 0.603);
+    img{
+        width: 30%;
+        height: auto;
+    }
+}

@@ -1,0 +1,24 @@
+.scroll {
+  width: fit-content;
+  height: 6px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--clr-dirty-white);
+  .custom_dot_active {
+    border-radius: 6px;
+    background-color: var(--clr-secondary);
+    height: 6px;
+    width: 80px;
+    border: none;
+    border-radius: 6px;
+  }
+  .custom_dot_inactive {
+    background-color: inherit;
+    height: 6px;
+    // border-radius: 6px;
+
+    width: 80px;
+    border: none;
+  }
+}

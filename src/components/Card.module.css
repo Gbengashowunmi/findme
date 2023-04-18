@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  width: 20rem;
+  height: 400px;
+  padding: 0;
+  margin: 0 -5rem;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+@media (max-width:900px) {
+  .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  width: 12rem;
+  height: 400px;
+  padding: 0;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: none;
+}
+}
